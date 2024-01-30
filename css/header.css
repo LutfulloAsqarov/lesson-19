@@ -1,0 +1,31 @@
+header {
+    top: 31px;
+    left: var(--aside-width);
+    width: calc(100vw - var(--aside-width));
+    height: var(--header-hight);
+}
+
+.header__hamburger {
+    font-size: 30px;
+    background: transparent;
+}
+
+.header__right {
+    gap: 14px;
+}
+
+.header__right p {
+    color: #252733;
+    text-align: right;
+    font-family: Mulish;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+}
+
+.header__right img {
+    width: 44px;
+    height: 44px;
+    border-radius: 22px;
+}

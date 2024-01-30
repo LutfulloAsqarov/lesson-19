@@ -1,0 +1,82 @@
+main {
+    left: var(--aside-width);
+    top: calc(31px + var(--header-hight));
+    width: calc(100vw - var(--aside-width));
+    height: var(--main-hight);
+    padding-top: 53px;
+    /* background: green; */
+}
+
+.main__content {
+    margin-bottom: 64.64px;
+}
+
+.main__content-title {
+    color: #000;
+    font-family: Lato;
+    font-size: 39px;
+    font-weight: 400;
+}
+
+.main__content-btns {
+    gap: 32px;
+}
+
+.add__btn {
+    color: #fff;
+    text-align: center;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 5px;
+    padding: 9.25px 18.55px;
+    background: #10cd45;
+}
+table {
+    width: 100%;
+}
+
+tr th {
+    color: #878787;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 0 150px 20px 0;
+    text-align: start;
+}
+
+.pl {
+    padding-left: 19px;
+}
+
+.owner {
+    justify-content: flex-start;
+    gap: 24.5px;
+    width: 310px;
+    padding-left: 19px;
+}
+
+table, th, td {
+    border-collapse: collapse;
+}
+
+.odd {
+    background: #eef2f5;
+}
+
+td {
+    padding: 15px 0;
+    color: #414141;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+
+.profit {
+    color: #00ca39;
+}
+
+.losses {
+    color: #e44067;
+}

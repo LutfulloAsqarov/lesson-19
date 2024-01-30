@@ -1,0 +1,68 @@
+table, tr {
+    border-collapse: collapse;
+    border: 1px solid #DFE0EB;
+}
+
+.desc__title {
+    color: #252733;
+    font-family: Mulish;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0.2px; 
+}
+
+.desc__sub-title {
+    color: #c5c7cd;
+    font-family: Mulish;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.1px;
+}
+
+.form__btn {
+    color:  #fff;
+    padding: 5px 12px;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    border-radius: 100px;
+}
+
+.table th {
+    padding: 50px 0 12px;
+}
+
+.title-1 {
+    padding-left: 32px !important;
+}
+
+.high {
+    background: #f12b2c;
+}
+
+.normal {
+    background: #29CC97;
+}
+
+.low {
+    background: #FEC400;
+}
+
+.customer {
+    justify-content: flex-start;
+    gap: 24.5px;
+    width: 310px;
+    padding: 24px 32px;
+    width: 100%;
+}
+
+.table__row {
+    padding-left: 32px;
+    
+}
+

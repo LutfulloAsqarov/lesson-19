@@ -1,0 +1,6 @@
+:root {
+    --aside-width: 255px;
+    --aside-bg: #363740;
+    --header-hight: 44px;
+    --main-hight: calc(100vh - (var(--header-hight) + 31px));
+}
